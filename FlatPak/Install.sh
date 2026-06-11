@@ -1,0 +1,1 @@
+sudo pacman -S flatpak && sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak --version

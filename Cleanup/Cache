@@ -1,0 +1,2 @@
+echo "[*] Removing orphan packages..." && \
+sudo pacman -Rns $(pacman -Qtdq) --noconfirm 2>/dev/null || echo "[+] No orphans found"
